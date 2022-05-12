@@ -1,0 +1,1186 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1098" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INTPTLAT" selected="True" type="FixedDecimal" size="254.8" />
+            <SelectField field="INTPTLONG" selected="True" type="FixedDecimal" size="254.8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Select</AnnotationText>
+          <DefaultAnnotationText>Select</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1242" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\david.pickering\OneDrive - Sage Software, Inc\Desktop\Green Tree Finance\Green_Tree_Finance_Dataset.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>CEJST + 
+Tree Equity
+Score</AnnotationText>
+          <DefaultAnnotationText>Green_Tree_Finance_Dataset.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="197" y="377" width="385" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Tree Equity Score Data Prep</Caption>
+          <Style TextColor="#314c4a" FillColor="#bedcbf" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="222" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Tree Equity 
+Score Data File</AnnotationText>
+              <DefaultAnnotationText>Tree_Equity_Score_Data.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="geoid" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="total_pop" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="state" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="county" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="pctpov" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="pctpoc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="unemplrate" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="medhhinc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="dep_ratio" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="child_perc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="seniorperc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="treecanopy" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="area" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="source" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="avg_temp" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="ua_name" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="incorpname" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="congressio" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="biome" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="bgpopdense" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="popadjust" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tc_gap" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tc_goal" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="phys_hlth" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="ment_hlth" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="asthma" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="core_m" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="core_w" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="core_norm" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="healthnorm" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="priority" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tes" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tesctyscor" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="414" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Left([geoid], 11)" field="geoid" size="8" type="Int64" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Trim GeoID</AnnotationText>
+              <DefaultAnnotationText><![CDATA[geoid = Left([geoid], 11)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="318" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="geoid" selected="False" />
+                <Field field="total_pop" selected="True" />
+                <Field field="state" selected="True" />
+                <Field field="county" selected="True" />
+                <Field field="pctpov" selected="True" />
+                <Field field="pctpoc" selected="True" />
+                <Field field="unemplrate" selected="True" />
+                <Field field="medhhinc" selected="True" />
+                <Field field="dep_ratio" selected="True" />
+                <Field field="child_perc" selected="True" />
+                <Field field="seniorperc" selected="True" />
+                <Field field="treecanopy" selected="True" />
+                <Field field="area" selected="True" />
+                <Field field="source" selected="True" />
+                <Field field="avg_temp" selected="True" />
+                <Field field="ua_name" selected="True" />
+                <Field field="incorpname" selected="True" />
+                <Field field="congressio" selected="True" />
+                <Field field="biome" selected="True" />
+                <Field field="bgpopdense" selected="True" />
+                <Field field="popadjust" selected="True" />
+                <Field field="tc_gap" selected="True" />
+                <Field field="tc_goal" selected="True" />
+                <Field field="phys_hlth" selected="True" />
+                <Field field="ment_hlth" selected="True" />
+                <Field field="asthma" selected="True" />
+                <Field field="core_m" selected="True" />
+                <Field field="core_w" selected="True" />
+                <Field field="core_norm" selected="True" />
+                <Field field="healthnorm" selected="True" />
+                <Field field="priority" selected="True" />
+                <Field field="tes" selected="True" />
+                <Field field="tesctyscor" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Auto Field 
+Type</AnnotationText>
+              <DefaultAnnotationText>Auto Field 
+Type</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="geoid" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="total_pop" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Int32" />
+                <Field name="state" size="2" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="String" />
+                <Field name="county" size="51" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="pctpov" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="pctpoc" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="unemplrate" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="medhhinc" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Int32" />
+                <Field name="dep_ratio" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="child_perc" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="seniorperc" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="treecanopy" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="area" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="source" size="26" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="avg_temp" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="ua_name" size="56" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="incorpname" size="41" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="congressio" size="36" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="biome" size="9" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="String" />
+                <Field name="bgpopdense" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="popadjust" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="tc_gap" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="tc_goal" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="phys_hlth" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="ment_hlth" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="asthma" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="core_m" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="core_w" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="core_norm" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="healthnorm" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="priority" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="tes" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="tesctyscor" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="498" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="geoid" action="GroupBy" rename="geoid" />
+                <SummarizeField field="total_pop" action="Sum" rename="total_pop" />
+                <SummarizeField field="tes" action="Min" rename="Min_tes" />
+                <SummarizeField field="tes" action="Max" rename="Max_tes" />
+                <SummarizeField field="tes" action="Avg" rename="Avg_tes" />
+                <SummarizeField field="tesctyscor" action="Min" rename="Min_tesctyscor" />
+                <SummarizeField field="tesctyscor" action="Max" rename="Max_tesctyscor" />
+                <SummarizeField field="tesctyscor" action="Avg" rename="Avg_tesctyscor" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Group By 
+GeoID</AnnotationText>
+              <DefaultAnnotationText>Group By 
+GeoID</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="749" y="341" width="325" height="169" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Join CEJST and Tree Equity Data</Caption>
+          <Style TextColor="#314c4a" FillColor="#c2a66b" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="858" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Census tract ID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="geoid" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_geoid" selected="True" rename="Right_geoid" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="990" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="774" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1013" y="88" width="277" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>View by State &amp; County POC</Caption>
+          <Style TextColor="#314c4a" FillColor="#deedf5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1038" y="137" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="State/Territory" action="GroupBy" rename="State/Territory" />
+                <SummarizeField field="County Name" action="GroupBy" rename="County Name" />
+                <SummarizeField field="Total threshold criteria exceeded" action="Sum" rename="Sum_Total threshold criteria exceeded" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Group By
+State &amp;
+County</AnnotationText>
+              <DefaultAnnotationText>Group By
+State &amp;
+County</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1206" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\LIAM~1.BRE\AppData\Local\Temp\Engine_2680_dffd42ff971d4df49fab4eb9d0c54342_\Engine_3192_179659091c5b40b495bfbdc96dd01911_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Grouped
+Output</AnnotationText>
+              <DefaultAnnotationText>Grouped
+Output</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1122" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Sum_Total threshold criteria exceeded" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Sort
+Data</AnnotationText>
+              <DefaultAnnotationText>Sum_Total threshold criteria exceeded - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="197" y="124" width="397" height="233" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>County Geocode Data Prep</Caption>
+          <Style TextColor="#314c4a" FillColor="#bae4b6" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="222" y="173" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>CEJ Data In</AnnotationText>
+              <DefaultAnnotationText>communities-2022-03-30-0033GMT.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Census tract ID" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="County Name" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="State/Territory" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total threshold criteria exceeded" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total categories exceeded" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Identified as disadvantaged" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total population" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Is low income and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for expected agriculture loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for expected building loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected building loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected building loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for expected population loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected population loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected population loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for energy burden, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Energy burden (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Energy burden" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for PM2.5 exposure, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="PM2.5 in the air (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="PM2.5 in the air" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for diesel particulate matter, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diesel particulate matter exposure (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diesel particulate matter exposure" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for traffic proximity, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Traffic proximity and volume (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Traffic proximity and volume" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for housing burden, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Housing burden (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Housing burden (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for lead paint, the median house value is less than 90th percentile, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent pre-1960s housing (lead paint indicator) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent pre-1960s housing (lead paint indicator)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Median value ($) of owner-occupied housing units (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Median value ($) of owner-occupied housing units" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to hazardous waste facilities, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to hazardous waste sites (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to hazardous waste sites" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to superfund sites, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to NPL sites (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to NPL sites" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to RMP sites, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to Risk Management Plan (RMP) facilities (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to Risk Management Plan (RMP) facilities" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for wastewater discharge, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Wastewater discharge (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Wastewater discharge" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for asthma, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Current asthma among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Current asthma among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for diabetes, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for heart disease, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for low life expectancy, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Low life expectancy (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Life expectancy (years)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Low median household income as a percent of area median income (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Median household income as a percent of area median income" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for households in linguistic isolation, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Linguistic isolation (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Linguistic isolation (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for unemployment, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Unemployment (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Unemployment (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals below 200% Federal Poverty Line (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals &lt; 100% Federal Poverty Line (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals below 200% Federal Poverty Line" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals &lt; 100% Federal Poverty Line" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent individuals age 25 or over with less than high school degree (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent individuals age 25 or over with less than high school degree" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Unemployment (percent) in 2009 (island areas) and 2010 (states and PR)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percentage households below 100% of federal poverty line in 2009 (island areas) and 2010 (states and PR)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for unemployment and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of residents who are not currently enrolled in higher ed" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="402" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Census tract ID" selected="True" />
+                <SelectField field="County Name" selected="True" />
+                <SelectField field="State/Territory" selected="True" />
+                <SelectField field="Total threshold criteria exceeded" selected="True" />
+                <SelectField field="Total categories exceeded" selected="True" />
+                <SelectField field="Identified as disadvantaged" selected="True" />
+                <SelectField field="Total population" selected="True" />
+                <SelectField field="Expected agricultural loss rate (Natural Hazards Risk Index) (percentile)" selected="True" />
+                <SelectField field="Expected agricultural loss rate (Natural Hazards Risk Index)" selected="True" />
+                <SelectField field="Expected building loss rate (Natural Hazards Risk Index) (percentile)" selected="True" />
+                <SelectField field="Expected building loss rate (Natural Hazards Risk Index)" selected="True" />
+                <SelectField field="Expected population loss rate (Natural Hazards Risk Index) (percentile)" selected="True" />
+                <SelectField field="Expected population loss rate (Natural Hazards Risk Index)" selected="True" />
+                <SelectField field="Energy burden (percentile)" selected="True" />
+                <SelectField field="Energy burden" selected="True" />
+                <SelectField field="PM2.5 in the air (percentile)" selected="True" />
+                <SelectField field="PM2.5 in the air" selected="True" />
+                <SelectField field="Diesel particulate matter exposure (percentile)" selected="True" />
+                <SelectField field="Diesel particulate matter exposure" selected="True" />
+                <SelectField field="Traffic proximity and volume (percentile)" selected="True" />
+                <SelectField field="Traffic proximity and volume" selected="True" />
+                <SelectField field="Housing burden (percent) (percentile)" selected="True" />
+                <SelectField field="Housing burden (percent)" selected="True" />
+                <SelectField field="Percent pre-1960s housing (lead paint indicator) (percentile)" selected="True" />
+                <SelectField field="Percent pre-1960s housing (lead paint indicator)" selected="True" />
+                <SelectField field="Median value ($) of owner-occupied housing units (percentile)" selected="True" />
+                <SelectField field="Median value ($) of owner-occupied housing units" selected="True" />
+                <SelectField field="Proximity to hazardous waste sites (percentile)" selected="True" />
+                <SelectField field="Proximity to hazardous waste sites" selected="True" />
+                <SelectField field="Proximity to NPL sites (percentile)" selected="True" />
+                <SelectField field="Proximity to NPL sites" selected="True" />
+                <SelectField field="Proximity to Risk Management Plan (RMP) facilities (percentile)" selected="True" />
+                <SelectField field="Proximity to Risk Management Plan (RMP) facilities" selected="True" />
+                <SelectField field="Wastewater discharge (percentile)" selected="True" />
+                <SelectField field="Wastewater discharge" selected="True" />
+                <SelectField field="Current asthma among adults aged greater than or equal to 18 years (percentile)" selected="True" />
+                <SelectField field="Current asthma among adults aged greater than or equal to 18 years" selected="True" />
+                <SelectField field="Diagnosed diabetes among adults aged greater than or equal to 18 years (percentile)" selected="True" />
+                <SelectField field="Diagnosed diabetes among adults aged greater than or equal to 18 years" selected="True" />
+                <SelectField field="Coronary heart disease among adults aged greater than or equal to 18 years (percentile)" selected="True" />
+                <SelectField field="Coronary heart disease among adults aged greater than or equal to 18 years" selected="True" />
+                <SelectField field="Low life expectancy (percentile)" selected="True" />
+                <SelectField field="Life expectancy (years)" selected="True" />
+                <SelectField field="Low median household income as a percent of area median income (percentile)" selected="True" />
+                <SelectField field="Median household income as a percent of area median income" selected="True" />
+                <SelectField field="Linguistic isolation (percent) (percentile)" selected="True" />
+                <SelectField field="Linguistic isolation (percent)" selected="True" />
+                <SelectField field="Unemployment (percent) (percentile)" selected="True" />
+                <SelectField field="Unemployment (percent)" selected="True" />
+                <SelectField field="Percent of individuals below 200% Federal Poverty Line (percentile)" selected="True" />
+                <SelectField field="Percent of individuals &lt; 100% Federal Poverty Line (percentile)" selected="True" />
+                <SelectField field="Percent of individuals below 200% Federal Poverty Line" selected="True" />
+                <SelectField field="Percent of individuals &lt; 100% Federal Poverty Line" selected="True" />
+                <SelectField field="Percent individuals age 25 or over with less than high school degree (percentile)" selected="True" />
+                <SelectField field="Percent individuals age 25 or over with less than high school degree" selected="True" />
+                <SelectField field="Unemployment (percent) in 2009 (island areas) and 2010 (states and PR)" selected="True" />
+                <SelectField field="Percentage households below 100% of federal poverty line in 2009 (island areas) and 2010 (states and PR)" selected="True" />
+                <SelectField field="Percent of residents who are not currently enrolled in higher ed" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Remove
+unnecessary
+fields</AnnotationText>
+              <DefaultAnnotationText>Remove
+unnecessary
+fields</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="318" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Census tract ID" selected="True" />
+                <Field field="County Name" selected="True" />
+                <Field field="State/Territory" selected="True" />
+                <Field field="Total threshold criteria exceeded" selected="True" />
+                <Field field="Total categories exceeded" selected="True" />
+                <Field field="Identified as disadvantaged" selected="True" />
+                <Field field="Total population" selected="True" />
+                <Field field="Is low income and has a low percent of higher ed students?" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for expected agriculture loss rate, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Expected agricultural loss rate (Natural Hazards Risk Index) (percentile)" selected="True" />
+                <Field field="Expected agricultural loss rate (Natural Hazards Risk Index)" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for expected building loss rate, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Expected building loss rate (Natural Hazards Risk Index) (percentile)" selected="True" />
+                <Field field="Expected building loss rate (Natural Hazards Risk Index)" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for expected population loss rate, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Expected population loss rate (Natural Hazards Risk Index) (percentile)" selected="True" />
+                <Field field="Expected population loss rate (Natural Hazards Risk Index)" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for energy burden, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Energy burden (percentile)" selected="True" />
+                <Field field="Energy burden" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for PM2.5 exposure, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="PM2.5 in the air (percentile)" selected="True" />
+                <Field field="PM2.5 in the air" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for diesel particulate matter, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Diesel particulate matter exposure (percentile)" selected="True" />
+                <Field field="Diesel particulate matter exposure" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for traffic proximity, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Traffic proximity and volume (percentile)" selected="True" />
+                <Field field="Traffic proximity and volume" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for housing burden, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Housing burden (percent) (percentile)" selected="True" />
+                <Field field="Housing burden (percent)" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for lead paint, the median house value is less than 90th percentile, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Percent pre-1960s housing (lead paint indicator) (percentile)" selected="True" />
+                <Field field="Percent pre-1960s housing (lead paint indicator)" selected="True" />
+                <Field field="Median value ($) of owner-occupied housing units (percentile)" selected="True" />
+                <Field field="Median value ($) of owner-occupied housing units" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for proximity to hazardous waste facilities, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Proximity to hazardous waste sites (percentile)" selected="True" />
+                <Field field="Proximity to hazardous waste sites" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for proximity to superfund sites, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Proximity to NPL sites (percentile)" selected="True" />
+                <Field field="Proximity to NPL sites" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for proximity to RMP sites, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Proximity to Risk Management Plan (RMP) facilities (percentile)" selected="True" />
+                <Field field="Proximity to Risk Management Plan (RMP) facilities" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for wastewater discharge, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Wastewater discharge (percentile)" selected="True" />
+                <Field field="Wastewater discharge" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for asthma, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Current asthma among adults aged greater than or equal to 18 years (percentile)" selected="True" />
+                <Field field="Current asthma among adults aged greater than or equal to 18 years" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for diabetes, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Diagnosed diabetes among adults aged greater than or equal to 18 years (percentile)" selected="True" />
+                <Field field="Diagnosed diabetes among adults aged greater than or equal to 18 years" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for heart disease, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Coronary heart disease among adults aged greater than or equal to 18 years (percentile)" selected="True" />
+                <Field field="Coronary heart disease among adults aged greater than or equal to 18 years" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for low life expectancy, is low income, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Low life expectancy (percentile)" selected="True" />
+                <Field field="Life expectancy (years)" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for low median household income as a percent of area median income, has low HS attainment, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Low median household income as a percent of area median income (percentile)" selected="True" />
+                <Field field="Median household income as a percent of area median income" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for households in linguistic isolation, has low HS attainment, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Linguistic isolation (percent) (percentile)" selected="True" />
+                <Field field="Linguistic isolation (percent)" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for unemployment, has low HS attainment, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Unemployment (percent) (percentile)" selected="True" />
+                <Field field="Unemployment (percent)" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level, has low HS attainment, and has a low percent of higher ed students?" selected="True" />
+                <Field field="Percent of individuals below 200% Federal Poverty Line (percentile)" selected="True" />
+                <Field field="Percent of individuals &lt; 100% Federal Poverty Line (percentile)" selected="True" />
+                <Field field="Percent of individuals below 200% Federal Poverty Line" selected="True" />
+                <Field field="Percent of individuals &lt; 100% Federal Poverty Line" selected="True" />
+                <Field field="Percent individuals age 25 or over with less than high school degree (percentile)" selected="True" />
+                <Field field="Percent individuals age 25 or over with less than high school degree" selected="True" />
+                <Field field="Unemployment (percent) in 2009 (island areas) and 2010 (states and PR)" selected="True" />
+                <Field field="Percentage households below 100% of federal poverty line in 2009 (island areas) and 2010 (states and PR)" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for unemployment and has low HS education in 2009 (island areas)?" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level and has low HS education in 2009 (island areas)?" selected="True" />
+                <Field field="Greater than or equal to the 90th percentile for low median household income as a percent of area median income and has low HS education in 2009 (island areas)?" selected="True" />
+                <Field field="Percent of residents who are not currently enrolled in higher ed" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Auto Field 
+Type</AnnotationText>
+              <DefaultAnnotationText>Auto Field 
+Type</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Census tract ID" size="11" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="String" />
+                <Field name="County Name" size="33" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="State/Territory" size="24" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total threshold criteria exceeded" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Total categories exceeded" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Identified as disadvantaged" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Total population" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Is low income and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Greater than or equal to the 90th percentile for expected agriculture loss rate, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for expected building loss rate, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Expected building loss rate (Natural Hazards Risk Index) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Expected building loss rate (Natural Hazards Risk Index)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for expected population loss rate, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Expected population loss rate (Natural Hazards Risk Index) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Expected population loss rate (Natural Hazards Risk Index)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for energy burden, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Energy burden (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Energy burden" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
+                <Field name="Greater than or equal to the 90th percentile for PM2.5 exposure, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="PM2.5 in the air (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="PM2.5 in the air" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for diesel particulate matter, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Diesel particulate matter exposure (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Diesel particulate matter exposure" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for traffic proximity, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Traffic proximity and volume (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Traffic proximity and volume" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for housing burden, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Housing burden (percent) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Housing burden (percent)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Greater than or equal to the 90th percentile for lead paint, the median house value is less than 90th percentile, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Percent pre-1960s housing (lead paint indicator) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Percent pre-1960s housing (lead paint indicator)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Median value ($) of owner-occupied housing units (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Median value ($) of owner-occupied housing units" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to hazardous waste facilities, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Proximity to hazardous waste sites (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Proximity to hazardous waste sites" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to superfund sites, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Proximity to NPL sites (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Proximity to NPL sites" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to RMP sites, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Proximity to Risk Management Plan (RMP) facilities (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Proximity to Risk Management Plan (RMP) facilities" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for wastewater discharge, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Wastewater discharge (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Wastewater discharge" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for asthma, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Current asthma among adults aged greater than or equal to 18 years (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Current asthma among adults aged greater than or equal to 18 years" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
+                <Field name="Greater than or equal to the 90th percentile for diabetes, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
+                <Field name="Greater than or equal to the 90th percentile for heart disease, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
+                <Field name="Greater than or equal to the 90th percentile for low life expectancy, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Low life expectancy (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Life expectancy (years)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
+                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income, has low HS attainment, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Low median household income as a percent of area median income (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Median household income as a percent of area median income" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
+                <Field name="Greater than or equal to the 90th percentile for households in linguistic isolation, has low HS attainment, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Linguistic isolation (percent) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Linguistic isolation (percent)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Greater than or equal to the 90th percentile for unemployment, has low HS attainment, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Unemployment (percent) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Unemployment (percent)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level, has low HS attainment, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Percent of individuals below 200% Federal Poverty Line (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Percent of individuals &lt; 100% Federal Poverty Line (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Percent of individuals below 200% Federal Poverty Line" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Percent of individuals &lt; 100% Federal Poverty Line" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Percent individuals age 25 or over with less than high school degree (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Percent individuals age 25 or over with less than high school degree" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Unemployment (percent) in 2009 (island areas) and 2010 (states and PR)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Percentage households below 100% of federal poverty line in 2009 (island areas) and 2010 (states and PR)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Greater than or equal to the 90th percentile for unemployment and has low HS education in 2009 (island areas)?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level and has low HS education in 2009 (island areas)?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income and has low HS education in 2009 (island areas)?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
+                <Field name="Percent of residents who are not currently enrolled in higher ed" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="222" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>County Geocodes</AnnotationText>
+              <DefaultAnnotationText>2021_Gaz_tracts_national.txt</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="USPS" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="GEOID" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="ALAND" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="AWATER" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="ALAND_SQMI" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="AWATER_SQMI" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="INTPTLAT" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="INTPTLONG" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="510" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Census tract ID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="GEOID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="749" y="89" width="241" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Heat Map POC</Caption>
+          <Style TextColor="#314c4a" FillColor="#deedf5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="24">
+          <GuiSettings>
+            <Position x="822" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="GridSize">1.0</Value>
+              <Value name="MaxDistance">10.0</Value>
+              <Value name="DecayFunction">1 - [Distance]/[MaxDistance]</Value>
+              <Value name="SmoothResults">True</Value>
+              <Value name="OuputStacked">False</Value>
+              <Value name="OutputDonuts">True</Value>
+              <Value name="Input.Input"><![CDATA[Point=Centroid
+Heat (Optional)=Total threshold criteria exceeded
+]]></Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="HeatMap.yxmc" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="906" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\LIAM~1.BRE\AppData\Local\Temp\Engine_2680_dffd42ff971d4df49fab4eb9d0c54342_\Engine_3192_80eceda8354444e0967d8c979529c008_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Map</DefaultTab>
+                  <Hints>
+                    <Map>
+                      <BaseMap>CartoLight</BaseMap>
+                    </Map>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Map
+Output</AnnotationText>
+              <DefaultAnnotationText>Map
+Output</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+            <Position x="774" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields fieldX="INTPTLONG" fieldY="INTPTLAT" />
+              <Mode>Double</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Geo Spatial 
+Data</AnnotationText>
+              <DefaultAnnotationText>Geo Spatial 
+Data</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="31" Connection="Left" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="22" Connection="Left" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output80" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="True" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>One Tree Finance - Data Workflow 1205</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f4cc3366-ffad-4a97-a4fb-32be02f60caa" />
+      <Telemetry>
+        <PreviousWorkflowId value="aba4cc03-9356-4f8d-b605-3eb9d21f7bf7" />
+        <OriginWorkflowId value="aba4cc03-9356-4f8d-b605-3eb9d21f7bf7" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

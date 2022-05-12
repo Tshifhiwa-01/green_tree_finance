@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1098" y="426" />
+        <Position x="955" y="392" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -26,7 +26,7 @@
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1242" y="426" />
+        <Position x="1099" y="392" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -52,7 +52,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="47">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="197" y="377" width="385" height="165" />
+        <Position x="54" y="343" width="385" height="165" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -70,12 +70,12 @@ Table=Sheet1</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="29">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="222" y="426" />
+            <Position x="79" y="392" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -101,39 +101,39 @@ Score Data File</AnnotationText>
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="geoid" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="total_pop" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="state" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="county" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="pctpov" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="pctpoc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="unemplrate" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="medhhinc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="dep_ratio" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="child_perc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="seniorperc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="treecanopy" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="area" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="source" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="avg_temp" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="ua_name" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="incorpname" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="congressio" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="biome" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="bgpopdense" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="popadjust" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="tc_gap" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="tc_goal" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="phys_hlth" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="ment_hlth" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="asthma" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="core_m" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="core_w" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="core_norm" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="healthnorm" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="priority" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="tes" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="tesctyscor" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="geoid" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="total_pop" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="state" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="county" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="pctpov" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="pctpoc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="unemplrate" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="medhhinc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="dep_ratio" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="child_perc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="seniorperc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="treecanopy" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="area" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="source" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="avg_temp" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="ua_name" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="incorpname" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="congressio" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="biome" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="bgpopdense" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="popadjust" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tc_gap" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tc_goal" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="phys_hlth" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="ment_hlth" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="asthma" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="core_m" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="core_w" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="core_norm" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="healthnorm" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="priority" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tes" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tesctyscor" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -141,7 +141,7 @@ Score Data File</AnnotationText>
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="414" y="426" />
+            <Position x="271" y="392" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -161,7 +161,7 @@ Score Data File</AnnotationText>
         </Node>
         <Node ToolID="38">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="318" y="426" />
+            <Position x="175" y="392" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -212,39 +212,39 @@ Type</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="geoid" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="total_pop" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Int32" />
-                <Field name="state" size="2" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="String" />
-                <Field name="county" size="51" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="pctpov" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="pctpoc" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="unemplrate" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="medhhinc" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Int32" />
-                <Field name="dep_ratio" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="child_perc" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="seniorperc" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="treecanopy" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="area" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="source" size="26" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="avg_temp" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="ua_name" size="56" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="incorpname" size="41" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="congressio" size="36" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="V_String" />
-                <Field name="biome" size="9" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="String" />
-                <Field name="bgpopdense" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="popadjust" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="tc_gap" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="tc_goal" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="phys_hlth" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="ment_hlth" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="asthma" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="core_m" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="core_w" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="core_norm" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="healthnorm" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="priority" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="tes" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
-                <Field name="tesctyscor" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\Tree_Equity_Score_Data.csv" type="Double" />
+                <Field name="geoid" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="total_pop" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="state" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="county" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="pctpov" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="pctpoc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="unemplrate" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="medhhinc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="dep_ratio" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="child_perc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="seniorperc" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="treecanopy" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="area" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="source" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="avg_temp" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="ua_name" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="incorpname" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="congressio" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="biome" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="bgpopdense" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="popadjust" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tc_gap" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tc_goal" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="phys_hlth" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="ment_hlth" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="asthma" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="core_m" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="core_w" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="core_norm" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="healthnorm" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="priority" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tes" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
+                <Field name="tesctyscor" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\Tree_Equity_Score_Data.csv" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -252,7 +252,7 @@ Type</DefaultAnnotationText>
         </Node>
         <Node ToolID="39">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="498" y="426" />
+            <Position x="355" y="392" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -282,7 +282,7 @@ GeoID</DefaultAnnotationText>
     </Node>
     <Node ToolID="49">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="749" y="341" width="325" height="169" />
+        <Position x="606" y="307" width="325" height="169" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -300,7 +300,7 @@ GeoID</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="858" y="426" />
+            <Position x="715" y="392" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -331,7 +331,7 @@ GeoID</DefaultAnnotationText>
         </Node>
         <Node ToolID="40">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="990" y="426" />
+            <Position x="847" y="392" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -350,7 +350,7 @@ GeoID</DefaultAnnotationText>
         </Node>
         <Node ToolID="42">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="774" y="390" />
+            <Position x="631" y="356" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -371,7 +371,7 @@ GeoID</DefaultAnnotationText>
     </Node>
     <Node ToolID="48">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1013" y="88" width="277" height="180" />
+        <Position x="870" y="54" width="277" height="180" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -389,7 +389,7 @@ GeoID</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1038" y="137" />
+            <Position x="895" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -414,7 +414,7 @@ County</DefaultAnnotationText>
         </Node>
         <Node ToolID="15">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1206" y="138" />
+            <Position x="1063" y="104" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -445,7 +445,7 @@ Output</DefaultAnnotationText>
         </Node>
         <Node ToolID="17">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1122" y="138" />
+            <Position x="979" y="104" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -467,7 +467,7 @@ Data</AnnotationText>
     </Node>
     <Node ToolID="46">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="197" y="124" width="397" height="233" />
+        <Position x="54" y="90" width="397" height="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -485,12 +485,12 @@ Data</AnnotationText>
       <ChildNodes>
         <Node ToolID="2">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="222" y="173" />
+            <Position x="79" y="139" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -515,89 +515,89 @@ Data</AnnotationText>
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Census tract ID" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="County Name" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="State/Territory" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Total threshold criteria exceeded" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Total categories exceeded" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Identified as disadvantaged" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Total population" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Is low income and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for expected agriculture loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for expected building loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Expected building loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Expected building loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for expected population loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Expected population loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Expected population loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for energy burden, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Energy burden (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Energy burden" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for PM2.5 exposure, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="PM2.5 in the air (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="PM2.5 in the air" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for diesel particulate matter, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Diesel particulate matter exposure (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Diesel particulate matter exposure" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for traffic proximity, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Traffic proximity and volume (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Traffic proximity and volume" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for housing burden, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Housing burden (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Housing burden (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for lead paint, the median house value is less than 90th percentile, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percent pre-1960s housing (lead paint indicator) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percent pre-1960s housing (lead paint indicator)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Median value ($) of owner-occupied housing units (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Median value ($) of owner-occupied housing units" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for proximity to hazardous waste facilities, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Proximity to hazardous waste sites (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Proximity to hazardous waste sites" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for proximity to superfund sites, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Proximity to NPL sites (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Proximity to NPL sites" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for proximity to RMP sites, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Proximity to Risk Management Plan (RMP) facilities (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Proximity to Risk Management Plan (RMP) facilities" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for wastewater discharge, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Wastewater discharge (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Wastewater discharge" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for asthma, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Current asthma among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Current asthma among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for diabetes, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for heart disease, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for low life expectancy, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Low life expectancy (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Life expectancy (years)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Low median household income as a percent of area median income (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Median household income as a percent of area median income" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for households in linguistic isolation, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Linguistic isolation (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Linguistic isolation (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for unemployment, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Unemployment (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Unemployment (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percent of individuals below 200% Federal Poverty Line (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percent of individuals &lt; 100% Federal Poverty Line (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percent of individuals below 200% Federal Poverty Line" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percent of individuals &lt; 100% Federal Poverty Line" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percent individuals age 25 or over with less than high school degree (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percent individuals age 25 or over with less than high school degree" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Unemployment (percent) in 2009 (island areas) and 2010 (states and PR)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percentage households below 100% of federal poverty line in 2009 (island areas) and 2010 (states and PR)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for unemployment and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Percent of residents who are not currently enrolled in higher ed" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Census tract ID" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="County Name" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="State/Territory" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total threshold criteria exceeded" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total categories exceeded" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Identified as disadvantaged" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total population" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Is low income and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for expected agriculture loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for expected building loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected building loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected building loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for expected population loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected population loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected population loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for energy burden, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Energy burden (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Energy burden" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for PM2.5 exposure, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="PM2.5 in the air (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="PM2.5 in the air" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for diesel particulate matter, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diesel particulate matter exposure (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diesel particulate matter exposure" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for traffic proximity, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Traffic proximity and volume (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Traffic proximity and volume" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for housing burden, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Housing burden (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Housing burden (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for lead paint, the median house value is less than 90th percentile, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent pre-1960s housing (lead paint indicator) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent pre-1960s housing (lead paint indicator)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Median value ($) of owner-occupied housing units (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Median value ($) of owner-occupied housing units" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to hazardous waste facilities, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to hazardous waste sites (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to hazardous waste sites" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to superfund sites, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to NPL sites (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to NPL sites" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to RMP sites, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to Risk Management Plan (RMP) facilities (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to Risk Management Plan (RMP) facilities" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for wastewater discharge, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Wastewater discharge (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Wastewater discharge" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for asthma, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Current asthma among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Current asthma among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for diabetes, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for heart disease, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for low life expectancy, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Low life expectancy (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Life expectancy (years)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Low median household income as a percent of area median income (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Median household income as a percent of area median income" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for households in linguistic isolation, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Linguistic isolation (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Linguistic isolation (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for unemployment, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Unemployment (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Unemployment (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals below 200% Federal Poverty Line (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals &lt; 100% Federal Poverty Line (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals below 200% Federal Poverty Line" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals &lt; 100% Federal Poverty Line" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent individuals age 25 or over with less than high school degree (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent individuals age 25 or over with less than high school degree" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Unemployment (percent) in 2009 (island areas) and 2010 (states and PR)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percentage households below 100% of federal poverty line in 2009 (island areas) and 2010 (states and PR)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for unemployment and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of residents who are not currently enrolled in higher ed" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -605,7 +605,7 @@ Data</AnnotationText>
         </Node>
         <Node ToolID="11">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="174" />
+            <Position x="259" y="140" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -688,7 +688,7 @@ fields</DefaultAnnotationText>
         </Node>
         <Node ToolID="12">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="318" y="174" />
+            <Position x="175" y="140" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -789,89 +789,89 @@ Type</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Census tract ID" size="11" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="String" />
-                <Field name="County Name" size="33" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="State/Territory" size="24" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="V_String" />
-                <Field name="Total threshold criteria exceeded" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Total categories exceeded" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Identified as disadvantaged" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Total population" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Is low income and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Greater than or equal to the 90th percentile for expected agriculture loss rate, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for expected building loss rate, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Expected building loss rate (Natural Hazards Risk Index) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Expected building loss rate (Natural Hazards Risk Index)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for expected population loss rate, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Expected population loss rate (Natural Hazards Risk Index) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Expected population loss rate (Natural Hazards Risk Index)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for energy burden, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Energy burden (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Energy burden" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
-                <Field name="Greater than or equal to the 90th percentile for PM2.5 exposure, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="PM2.5 in the air (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="PM2.5 in the air" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for diesel particulate matter, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Diesel particulate matter exposure (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Diesel particulate matter exposure" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for traffic proximity, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Traffic proximity and volume (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Traffic proximity and volume" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for housing burden, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Housing burden (percent) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Housing burden (percent)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Greater than or equal to the 90th percentile for lead paint, the median house value is less than 90th percentile, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Percent pre-1960s housing (lead paint indicator) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Percent pre-1960s housing (lead paint indicator)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Median value ($) of owner-occupied housing units (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Median value ($) of owner-occupied housing units" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for proximity to hazardous waste facilities, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Proximity to hazardous waste sites (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Proximity to hazardous waste sites" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for proximity to superfund sites, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Proximity to NPL sites (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Proximity to NPL sites" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for proximity to RMP sites, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Proximity to Risk Management Plan (RMP) facilities (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Proximity to Risk Management Plan (RMP) facilities" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for wastewater discharge, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Wastewater discharge (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Wastewater discharge" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for asthma, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Current asthma among adults aged greater than or equal to 18 years (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Current asthma among adults aged greater than or equal to 18 years" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
-                <Field name="Greater than or equal to the 90th percentile for diabetes, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
-                <Field name="Greater than or equal to the 90th percentile for heart disease, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
-                <Field name="Greater than or equal to the 90th percentile for low life expectancy, is low income, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Low life expectancy (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Life expectancy (years)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Double" />
-                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income, has low HS attainment, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Low median household income as a percent of area median income (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Median household income as a percent of area median income" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Int16" />
-                <Field name="Greater than or equal to the 90th percentile for households in linguistic isolation, has low HS attainment, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Linguistic isolation (percent) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Linguistic isolation (percent)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Greater than or equal to the 90th percentile for unemployment, has low HS attainment, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Unemployment (percent) (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Unemployment (percent)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level, has low HS attainment, and has a low percent of higher ed students?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Percent of individuals below 200% Federal Poverty Line (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Percent of individuals &lt; 100% Federal Poverty Line (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Percent of individuals below 200% Federal Poverty Line" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Percent of individuals &lt; 100% Federal Poverty Line" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Percent individuals age 25 or over with less than high school degree (percentile)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Percent individuals age 25 or over with less than high school degree" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Unemployment (percent) in 2009 (island areas) and 2010 (states and PR)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Percentage households below 100% of federal poverty line in 2009 (island areas) and 2010 (states and PR)" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
-                <Field name="Greater than or equal to the 90th percentile for unemployment and has low HS education in 2009 (island areas)?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level and has low HS education in 2009 (island areas)?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income and has low HS education in 2009 (island areas)?" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Bool" />
-                <Field name="Percent of residents who are not currently enrolled in higher ed" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\communities-2022-03-30-0033GMT.csv" type="Byte" />
+                <Field name="Census tract ID" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="County Name" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="State/Territory" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total threshold criteria exceeded" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total categories exceeded" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Identified as disadvantaged" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Total population" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Is low income and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for expected agriculture loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected agricultural loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for expected building loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected building loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected building loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for expected population loss rate, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected population loss rate (Natural Hazards Risk Index) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Expected population loss rate (Natural Hazards Risk Index)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for energy burden, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Energy burden (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Energy burden" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for PM2.5 exposure, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="PM2.5 in the air (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="PM2.5 in the air" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for diesel particulate matter, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diesel particulate matter exposure (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diesel particulate matter exposure" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for traffic proximity, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Traffic proximity and volume (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Traffic proximity and volume" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for housing burden, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Housing burden (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Housing burden (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for lead paint, the median house value is less than 90th percentile, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent pre-1960s housing (lead paint indicator) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent pre-1960s housing (lead paint indicator)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Median value ($) of owner-occupied housing units (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Median value ($) of owner-occupied housing units" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to hazardous waste facilities, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to hazardous waste sites (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to hazardous waste sites" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to superfund sites, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to NPL sites (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to NPL sites" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for proximity to RMP sites, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to Risk Management Plan (RMP) facilities (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Proximity to Risk Management Plan (RMP) facilities" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for wastewater discharge, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Wastewater discharge (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Wastewater discharge" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for asthma, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Current asthma among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Current asthma among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for diabetes, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Diagnosed diabetes among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for heart disease, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Coronary heart disease among adults aged greater than or equal to 18 years" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for low life expectancy, is low income, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Low life expectancy (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Life expectancy (years)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Low median household income as a percent of area median income (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Median household income as a percent of area median income" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for households in linguistic isolation, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Linguistic isolation (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Linguistic isolation (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for unemployment, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Unemployment (percent) (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Unemployment (percent)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level, has low HS attainment, and has a low percent of higher ed students?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals below 200% Federal Poverty Line (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals &lt; 100% Federal Poverty Line (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals below 200% Federal Poverty Line" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of individuals &lt; 100% Federal Poverty Line" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent individuals age 25 or over with less than high school degree (percentile)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent individuals age 25 or over with less than high school degree" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Unemployment (percent) in 2009 (island areas) and 2010 (states and PR)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percentage households below 100% of federal poverty line in 2009 (island areas) and 2010 (states and PR)" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for unemployment and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for households at or below 100% federal poverty level and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Greater than or equal to the 90th percentile for low median household income as a percent of area median income and has low HS education in 2009 (island areas)?" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
+                <Field name="Percent of residents who are not currently enrolled in higher ed" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\communities-2022-03-30-0033GMT.csv" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -879,12 +879,12 @@ Type</DefaultAnnotationText>
         </Node>
         <Node ToolID="20">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="222" y="258" />
+            <Position x="79" y="224" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\2021_Gaz_tracts_national.txt</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -909,14 +909,14 @@ Type</DefaultAnnotationText>
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="USPS" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
-                <Field name="GEOID" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
-                <Field name="ALAND" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
-                <Field name="AWATER" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
-                <Field name="ALAND_SQMI" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
-                <Field name="AWATER_SQMI" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
-                <Field name="INTPTLAT" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
-                <Field name="INTPTLONG" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Desktop\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="USPS" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="GEOID" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="ALAND" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="AWATER" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="ALAND_SQMI" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="AWATER_SQMI" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="INTPTLAT" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\2021_Gaz_tracts_national.txt" type="V_String" />
+                <Field name="INTPTLONG" size="254" source="File: C:\Users\Liam.Bremner\OneDrive - Sage Software, Inc\Documents\GitHub\green_tree_finance\2021_Gaz_tracts_national.txt" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -924,7 +924,7 @@ Type</DefaultAnnotationText>
         </Node>
         <Node ToolID="22">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="510" y="246" />
+            <Position x="367" y="212" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -956,7 +956,7 @@ Type</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="749" y="89" width="241" height="165" />
+        <Position x="606" y="55" width="241" height="165" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -974,7 +974,7 @@ Type</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="24">
           <GuiSettings>
-            <Position x="822" y="138" />
+            <Position x="679" y="104" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -998,7 +998,7 @@ Heat (Optional)=Total threshold criteria exceeded
         </Node>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="906" y="138" />
+            <Position x="763" y="104" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1032,7 +1032,7 @@ Output</DefaultAnnotationText>
         </Node>
         <Node ToolID="23">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
-            <Position x="774" y="138" />
+            <Position x="631" y="104" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1173,9 +1173,9 @@ Data</DefaultAnnotationText>
         <Description />
         <File />
       </Example>
-      <WorkflowId value="f4cc3366-ffad-4a97-a4fb-32be02f60caa" />
+      <WorkflowId value="ec9f690a-6a77-4169-9938-8b55cbf77184" />
       <Telemetry>
-        <PreviousWorkflowId value="aba4cc03-9356-4f8d-b605-3eb9d21f7bf7" />
+        <PreviousWorkflowId value="f4cc3366-ffad-4a97-a4fb-32be02f60caa" />
         <OriginWorkflowId value="aba4cc03-9356-4f8d-b605-3eb9d21f7bf7" />
       </Telemetry>
     </MetaInfo>
